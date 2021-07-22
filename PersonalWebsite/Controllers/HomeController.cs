@@ -27,7 +27,13 @@ namespace PersonalWebsite.Controllers
         {
             return View();
         }
+
         public IActionResult Projects()
+        {
+            return View();
+        }
+
+        public IActionResult Fitness()
         {
             return View();
         }
